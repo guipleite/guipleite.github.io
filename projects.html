@@ -29,7 +29,7 @@
         float: none;
         margin-bottom: 10px; 
         margin-top: 10px; 
-        max-width: 75%;
+        max-width: 80%;
         padding: 7px;
         background-color: #111 !important;
         color: #eee;
@@ -67,9 +67,9 @@ a {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 1rem;
   margin: 0 auto;
   width: max-content;
 }
@@ -78,8 +78,8 @@ a {
   /* font-family: 'Heebo'; */
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
-  width: 15em;
+  height: 18em;
+  width: 18em;
   font-size: 1.5em;
   color: white;
   border-radius: 1em;
@@ -93,7 +93,7 @@ a {
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 3px solid #ccc;
   text-decoration: none;
 }
 
@@ -259,97 +259,114 @@ a {
     <main id = "app">
                   <section class="cards-wrapper">
                     <div class="card-grid-space">
-                      <a class="card" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+                      <a class="card" href="https://github.com/guipleite/Yelp-heatmap" style="--bg-img: url(./src/heatmap.png)">
                         <div>
-                          <h1>HTML Syntax</h1>
-                          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-                          <div class="date">6 Oct 2017</div>
+                          <h1>Yelp Heatmap</h1>
+                          <p>Demosntrates how Apache Spark can be used to manipulate data, with an end goal of generating a heatmap based on the reviews of users.
+                          </p>
+                          <div class="date">2019</div>
                           <div class="tags">
-                            <div class="tag">HTML</div>
+                            <div class="tag">API</div>
+                            <div class="tag">Spark</div>
+                            <div class="tag">SQL</div>
                           </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-grid-space">
-                      <a class="card" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+                      <a class="card" href="https://guipleite.medium.com/an-introduction-to-convolutional-neural-networks-for-image-upscaling-using-sub-pixel-cnns-5d9ea911c557" style="--bg-img: url('./src/cnn.png')">
                         <div>
-                          <h1>Basic types of HTML tags</h1>
-                          <p>Learn about some of the most common HTML tags…</p>
-                          <div class="date">9 Oct 2017</div>
+                          <h1>CNNs for Image Upscaling Article</h1>
+                          <p>Article and Implementation of a simple CNN with the objective of demonstrating how these neural networks can be used for image upscaling</p>
+                          <div class="date">2020</div>
                           <div class="tags">
-                            <div class="tag">HTML</div>
+                            <div class="tag">Machine Learning</div>
+                            <div class="tag">TensorFlow</div>
                           </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-grid-space">
-                      <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                      <a class="card" href="https://github.com/guipleite/CV2-Face-Swap" style="--bg-img: url('./src/faceswap.svg')">
                         <div>
-                          <h1>Links, images and about file paths</h1>
-                          <p>Learn how to use links and images along with file paths…</p>
-                          <div class="date">14 Oct 2017</div>
+                          <h1>FaceSwap with OpenCV2</h1>
+                          <p>Using OpenCV and dlib to swap the faces of two people
+                          </p>
+                          <div class="date">2020</div>
                           <div class="tags">
-                            <div class="tag">HTML</div>
+                            <div class="tag">OpenCV</div>
+                            <div class="tag">Machine Learning</div>
+                            <div class="tag">Computer Vision</div>
+
                           </div>
                         </div>
                       </a>
                     </div>
                     <div class="card-grid-space">
-                        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
-                          <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div class="date">14 Oct 2017</div>
+                      <a class="card" href="https://github.com/guipleite/AWS-BOTO" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+                        <div>
+                            <h1>Script Web Server on AWS</h1>
+                            <p>Boto3 script that creates a web server enviroment with MongoDB, Node and autoscaling LoadBalancer instances. </p>
+                            <div class="date">2019</div>
                             <div class="tags">
-                              <div class="tag">HTML</div>
+                              <div class="tag">AWS</div>
                             </div>
                           </div>
                         </a>
                       </div>
                       <div class="card-grid-space">
-                        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                        <a class="card" href="https://github.com/guipleite/GridFighter" style="--bg-img: url(./src/grid.png)">
                           <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div class="date">14 Oct 2017</div>
+                            <h1>GridFighter</h1>
+                            <p>3D Turn Based Combat game made with Unity
+                            </p>
+                            <div class="date">2020</div>
                             <div class="tags">
-                              <div class="tag">HTML</div>
+                              <div class="tag">C#</div>
+                              <div class="tag">Unity3D</div>
+                              <div class="tag">Game</div>
+
                             </div>
                           </div>
                         </a>
                       </div>
                       <div class="card-grid-space">
-                        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                        <a class="card" href="https://github.com/gabriellm1/NightscoutAlarmClock" style="--bg-img: url(./src/nightscout.png)">
                           <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div class="date">14 Oct 2017</div>
+                            <h1>NightScout AlarmClock</h1>
+                            <p>Bedside alarm clock project that displays blood glucose using Nightscout API
+                            </p>
+                            <div class="date">2019</div>
                             <div class="tags">
-                              <div class="tag">HTML</div>
+                              <div class="tag">C</div>
+                              <div class="tag">API</div>
+                              <div class="tag">Embeded System</div>
                             </div>
                           </div>
                         </a>
                       </div>
                       <div class="card-grid-space">
-                        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                        <a class="card" href="https://github.com/guipleite/NBA-Pass-Scrapper" style="--bg-img: url(./src/netw.png)">
                           <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div class="date">14 Oct 2017</div>
+                            <h1>NBA Pass Network</h1>
+                            <p>Scraping the NBA website to create a network of passes between players 
+                            </p>
+                            <div class="date">2019</div>
                             <div class="tags">
-                              <div class="tag">HTML</div>
+                              <div class="tag">SQL</div>
+                              <div class="tag">Web Scraping</div>
                             </div>
                           </div>
                         </a>
                       </div>
                       <div class="card-grid-space">
-                        <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+                        <a class="card" href="https://github.com/guipleite/LogComp" style="--bg-img: url(./src/compiler.png)">
                           <div>
-                            <h1>Links, images and about file paths</h1>
-                            <p>Learn how to use links and images along with file paths…</p>
-                            <div class="date">14 Oct 2017</div>
+                            <h1>PHP Compiler</h1>
+                            <p>Simple PHP compiler and interpreter made with Python</p>
+                            <div class="date">2020</div>
                             <div class="tags">
-                              <div class="tag">HTML</div>
+                              <div class="tag">Python</div>
                             </div>
                           </div>
                         </a>
